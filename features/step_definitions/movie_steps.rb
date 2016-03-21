@@ -45,7 +45,5 @@ Then /I should see all the movies/ do
   Movie.all.each do |movie|
     page.should have_content(movie.title)
   end
-  
   # flunk "Unimplemented"
-
 end
